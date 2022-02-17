@@ -4,7 +4,17 @@
   padding-bottom: 10px;
 }
 
+.container-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-text {
+  // margin-right: auto;
+}
+
 .footer__pre-text {
+  margin-bottom: 15px;
   display: block;
   font-family: Titan One;
   font-style: normal;
@@ -28,7 +38,27 @@
   color: #d41443;
 }
 
+.container-wrap {
+}
+
+.social {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 50px;
+}
+
+.social__list {
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+
 .social__link {
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #fea5bb;
 }
 
 .address {
@@ -52,6 +82,8 @@
 }
 
 .footer-text__rights {
+  text-align: center;
+  padding-top: 9px;
   border-top: 1px solid #e1e1e1;
   font-family: DM Sans;
   font-style: normal;
